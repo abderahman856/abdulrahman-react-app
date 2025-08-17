@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-    <div>  <h1>this is my first React application</h1>
+    <div style={{ backgroundColor: "blue", color: "white", padding: "20px" }}>
+      <h1>this is my first React application</h1>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
